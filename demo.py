@@ -22,7 +22,8 @@ country_desnsity  = {
     'Kenya':58636412,
     'Sudan':53282719,
     'Uganda':52761469,
-    'Algeria':48028334
+    'Algeria':48028334,
+    'Benin':33989664
 }
 fig,axes = plt.subplots(1,2,figsize = (14,5))
 dist_df = pd.DataFrame([country_desnsity])
