@@ -2,6 +2,7 @@
 this project is a demo of data analysis project. it visualizes variation in population of 10 Africa countries and also population trend of Nigeria over 10 years
 '''
 
+#required packages
 import os # essential for accessing system folders
 import seaborn as sb # essential for plotting figures
 import matplotlib.pyplot as plt # core data viuslization library
@@ -23,7 +24,8 @@ country_desnsity  = {
     'Sudan':53282719,
     'Uganda':52761469,
     'Algeria':48028334,
-    'Benin':33989664
+    'Benin':33989664,
+    'Niger':2897654
 }
 fig,axes = plt.subplots(1,2,figsize = (14,5))
 dist_df = pd.DataFrame([country_desnsity])
